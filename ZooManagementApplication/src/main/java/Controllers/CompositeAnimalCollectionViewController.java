@@ -3,7 +3,7 @@ package Controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class CompositeAnimalViewController {
+public class CompositeAnimalCollectionViewController {
     @FXML
     private Label welcomeText;
 
