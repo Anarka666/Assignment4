@@ -1,4 +1,4 @@
-package Controllers;
+package com.example.zoomanagementapplication.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
