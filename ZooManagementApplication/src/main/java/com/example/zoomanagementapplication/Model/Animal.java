@@ -20,7 +20,7 @@ public abstract class Animal {
     }
 
     // Abstract method for animal sound (polymorphism)
-    public abstract void makeSound();
+  //  public abstract void makeSound(); (no clue what this does but its not used and causes errors so im commenting it for now)
 
     // Display animal information
     public void displayInfo() {

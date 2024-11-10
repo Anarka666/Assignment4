@@ -26,5 +26,19 @@ public class CompositeAnimalCollection implements AnimalCollection {
             collection.displayAnimals();
         }
     }
-}
 
+    private List<Animal> collections = new ArrayList<>();
+    public String getName() {
+        return name;
+    }
+
+    public void addAnimal(Animal animal) {
+        collections.add(animal);
+    }
+    public List<Animal> getAnimals() {
+        return collections;
+    }
+    public void removeAnimal(Animal animal) {
+        collections.remove(animal);
+    }
+}

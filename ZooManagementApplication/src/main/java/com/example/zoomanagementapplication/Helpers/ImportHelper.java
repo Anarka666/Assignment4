@@ -5,9 +5,9 @@ import com.example.zoomanagementapplication.Model.*;
 /**
  * @author Matthias Harte
  */
-public class ImportHelper {
+//public class ImportHelper {
 
-    public static CompositeAnimalCollection createAnimals() {
+  //  public static CompositeAnimalCollection createAnimals() {
         // Create the lions enclosure
 //            Enclosure lions = new Enclosure();
 //            lions.setName("Lions");
@@ -44,12 +44,12 @@ public class ImportHelper {
 //            cougarsEnclosure.addAnimal(new Cougar("Lenny", 1, 26));  // Add Lenny
 
         // Create the big cats composite
-        CompositeAnimalCollection bigCats = new CompositeAnimalCollection();
+      //  CompositeAnimalCollection bigCats = new CompositeAnimalCollection();
 //            bigCats.setName("Big Cats");
 //            bigCats.addCollection(lions);
 //            bigCats.addCollection(tigers);
 //            bigCats.addCollection(cougarsEnclosure);
 
-        return bigCats;
-    }
-}
+       // return bigCats;
+ //   }
+//}

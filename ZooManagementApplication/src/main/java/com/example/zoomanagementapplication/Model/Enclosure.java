@@ -26,5 +26,11 @@ public class Enclosure implements AnimalCollection {
             animal.displayInfo();
         }
     }
+
+    //added to remove error
+    @Override
+    public List<Animal> getAnimals() {
+        return List.of();
+    }
 }
 
